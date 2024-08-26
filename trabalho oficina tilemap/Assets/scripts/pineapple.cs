@@ -8,6 +8,9 @@ public class pineapple : MonoBehaviour
      private SpriteRenderer sr;
      private CircleCollider2D circle;
 
+     public GameObject collected;
+     public int Score;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +28,11 @@ public class pineapple : MonoBehaviour
     {
         if(collider.gameObject.tag == "Player")
         {
-            Destroy(gameObject);
+            sr.enabled = false;
+            circle.enabled = false;
+            collected.SetActive(true);
+
+            Destroy(gameObject, 0.3f);
         }
     }
 }
