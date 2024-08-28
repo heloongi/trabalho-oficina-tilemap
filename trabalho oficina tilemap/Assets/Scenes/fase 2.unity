@@ -6854,9 +6854,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2363888870573371352, guid: 1d32abcaf3335974fa29304c12d5919b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7331771658570121125, guid: 1d32abcaf3335974fa29304c12d5919b, type: 3}
       propertyPath: m_Name
       value: Next Level
+      objectReference: {fileID: 0}
+    - target: {fileID: 7759278728674919841, guid: 1d32abcaf3335974fa29304c12d5919b, type: 3}
+      propertyPath: lvlName
+      value: fase 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8619,6 +8627,10 @@ PrefabInstance:
     - target: {fileID: 852999953995372644, guid: c512de55e97b82a4f8a60ac50574aeb3, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994924770798096009, guid: c512de55e97b82a4f8a60ac50574aeb3, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6543719729476528237, guid: c512de55e97b82a4f8a60ac50574aeb3, type: 3}
       propertyPath: m_LocalPosition.x
